@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sanjay1202.github.io/Sanjay-portfolio/",
+  "homepage": "https://sanjay1202.github.io/sanjayraj-profile/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
