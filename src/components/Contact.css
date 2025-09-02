@@ -1,0 +1,103 @@
+/* Contact Section Styles */
+.contact-section {
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  padding: 60px 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.contact-form {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  padding: 2.5rem 2rem;
+  backdrop-filter: blur(6px);
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.form-label {
+  color: #fff;
+  font-weight: 500;
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+.form-control:focus {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 0 2px #6c63ff;
+  color: #fff;
+}
+
+.btn-custom {
+  background: linear-gradient(90deg, #6c63ff 0%, #48c6ef 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  max-width: 98vw;
+  padding: 0.75rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: background 0.3s, transform 0.2s;
+}
+.btn-custom:hover {
+  background: linear-gradient(90deg, #48c6ef 0%, #6c63ff 100%);
+  transform: translateY(-2px) scale(1.03);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6c63ff 0%, #48c6ef 100%);
+  color: #fff;
+  font-size: 2rem;
+  transition: box-shadow 0.3s, transform 0.2s;
+  box-shadow: 0 4px 16px rgba(76, 110, 245, 0.15);
+  text-decoration: none;
+}
+.social-icon:hover {
+  box-shadow: 0 8px 32px rgba(76, 110, 245, 0.25);
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .contact-form {
+    padding: 1.5rem 0.5rem;
+  }
+  .section-title {
+    font-size: 2rem;
+  }
+  .social-icon {
+    width: 44px;
+    height: 44px;
+    font-size: 1.5rem;
+  }
+}
